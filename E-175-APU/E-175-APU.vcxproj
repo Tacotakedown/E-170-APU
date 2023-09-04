@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\APU\APU.cpp" />
     <ClCompile Include="dependencies\ImGui\imgui.cpp" />
     <ClCompile Include="dependencies\ImGui\imgui_demo.cpp" />
     <ClCompile Include="dependencies\ImGui\imgui_draw.cpp" />
@@ -151,6 +152,7 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\APU\APU.h" />
     <ClInclude Include="dependencies\ImGui\imconfig.h" />
     <ClInclude Include="dependencies\ImGui\imgui.h" />
     <ClInclude Include="dependencies\ImGui\imgui_impl_dx11.h" />
